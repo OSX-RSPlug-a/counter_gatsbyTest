@@ -1,0 +1,45 @@
+:root{
+  --ff-body: canada-type-gibson,sans-serif;
+  --fw-body: 300;
+  --fw-bold: 800;
+  --ctm: #000;
+  --btn-cstm: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto',  Arial, sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+html, body{
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: none;
+  border-top: 5px solid #435757;
+  font-family: var(--ff-body);
+  font-weight: var(--fw-body);
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+}
+
+@media screen and (max-width: 480px) {
+  html, body{
+    max-height: 100%;
+  }
+}
+
+@-ms-viewport{
+  width: device-width;
+}

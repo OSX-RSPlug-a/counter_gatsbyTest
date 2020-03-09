@@ -1,0 +1,42 @@
+article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: space-around;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 30px 20px;
+    max-width: 250px;
+    margin: 40px auto;
+    border-radius: 15px;
+	box-shadow:
+		4px 4px 4px 4px #d1d9e6 inset,
+		-4px -4px 4px 4px #eee inset;
+}
+
+article strong {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.bttn {
+    border: 5px solid var(--ctm);	
+    height: 60px;
+    width: 150px;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    background: transparent;
+    color: var(--ctm);
+    transition: 1s;
+    font-family: var(--ff-body);
+    font-size: 20px;
+    margin-top: 2vh;
+}
+                    
+.bttn:hover {
+    box-shadow: 0 0 0 2em var(--ctm) inset;
+    color: var(--btn-cstm);
+}
+                   
